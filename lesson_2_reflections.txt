@@ -1,0 +1,5 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+Ao iniciar um repositório o git cria uma psta espefica para ele, que alem de ser oculta, armazena todos os commits em forma de metadata;
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+A area de preparação alem de oculta, prepara o(s) arquivos para um commit, ela nos permite melho organizar os codigos a serem commitados
