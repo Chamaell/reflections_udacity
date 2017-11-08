@@ -1,0 +1,24 @@
+Reflexão: como usar diff para localizar bugs:
+Permite vizualizar de maneira mais agil e menos manual  as diferenças entre dois codigos, portanto os erros que foram adicionados;
+
+Reflexão: como usar o histórico para obter eficiência:
+Com historicos podemos rapidamente voltar a versões anteriores a erros inseridos, seria um grande undo, agilizando assim o processo de reparação já que esta não tera que ser feito de maneira inteiramente manual;
+
+Reflexão: commits manuais
+O salvamente manual realizado no git evita grandes extensões de dados assim como excesso de informação poluente(desnecessaria);
+o problema gerado por esse tipo de escolha de salvamento, é que por erro humano pode-se salvar coisas desnecessarias assim como deixar de salvar coisas importantes;
+A criação de commits também auxilia na separação de etapas de um codigo.
+
+Reflexão: commits de vários arquivos
+Pois um dos motivos  para o desenvolvimento do git foi o uso deste para versionamento de codigo, e nesse espectro se faz necessario o salvamento de arquivos de forma sparada porem simultanea, afim de não perder dados e funcionalidades passadas por bugs
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+Esse comandos tornam possivel vizualizar as mudanças nos Commits assim como comparalos
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+Com avisos e backups de versões, o Git nos auxilia a não danificar codigos já funcionais
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+Versionamento de codigos;
+Baixar packs sem depender dos Devs(testing);
+
