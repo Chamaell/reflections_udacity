@@ -3,3 +3,18 @@ Ao iniciar um repositório o git cria uma psta espefica para ele, que alem de se
 
 Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 A area de preparação alem de oculta, prepara o(s) arquivos para um commit, ela nos permite melho organizar os codigos a serem commitados
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+Usando as funçoes de comparação entre areas (git diff, git diff commit etc)
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+Situações em que se tem uma versão primaria, que esta funcional e não deve ser alterada sem testes, e as branches me ajudariam a testar mudanças antes de as encorpora-las no form principal
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+Ajudando...
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+O resultado é uma mescla automatica de todas as funcionalidades novas e diferentes, para ficar mais facil de vizualizar
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+Com as mesclagens automaticas, se poupa boa parte de tempo de juntar codigos, e ainda assim, quando existem conflitos, estes devem ser resolvidos manualmente, o que não gera uma dependecia grande demais do software.
